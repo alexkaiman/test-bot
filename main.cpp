@@ -37,7 +37,7 @@ void printUsage(const char* programName) {
               << "Опции:\n"
               << "  -l, --log <файл>   Путь к лог-файлу\n"
               << "  -c, --conf <файл>  Путь к конфигурационному файлу\n"
-              << "  -m, --mess <текст> Пользовательское сообщение\n"
+              << "  -m, --msg <текст>  Пользовательское сообщение\n"
               << "  -h, --help         Показать эту справку\n";
 }
 
@@ -48,7 +48,7 @@ int main(int argc, char* argv[]) {
     static struct option long_options[] = {
         {"log", required_argument, 0, 'l'},
         {"conf", required_argument, 0, 'c'},
-        {"mess", required_argument, 0, 'm'},
+        {"msg", required_argument, 0, 'm'},
         {"help", no_argument, 0, 'h'},
         {0, 0, 0, 0}
     };
