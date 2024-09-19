@@ -1,6 +1,7 @@
 ### Тестовый телеграм бот
 ----------
-Написан в качестве скелета. Не расчитан на работу как служба. Просто запустился, сделал свое дело и закрылся.
+>[!NOTE]
+>Написан в качестве скелета. Не расчитан на работу как служба. Просто запустился, сделал свое дело и закрылся.
 
 #### Написан на C++
 **Может:**
@@ -19,8 +20,9 @@
 ```bash
 make clean && make
 ```
-требуется
-* Library for building Telegram clients. TDLib: (https://github.com/tdlib/td)
+>[!IMPORTANT]
+>требуется
+>* Library for building Telegram clients. TDLib: (https://github.com/tdlib/td)
  ```bash
 pkg install tdlib
 ```
